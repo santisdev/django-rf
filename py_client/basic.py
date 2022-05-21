@@ -4,6 +4,6 @@ import requests
 # endpoint = "https://httpbin.org/status/200/"
 endpoint = "http://localhost:8000/api/"
 
-get_restponse = requests.get(endpoint, params={"abc":123}, json={"query":"hello world"})
+get_restponse = requests.post(endpoint, json={"title":"hello world"})
 # print(get_restponse.text)
 print(get_restponse.json())
