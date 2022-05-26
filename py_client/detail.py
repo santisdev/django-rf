@@ -1,4 +1,3 @@
-from turtle import end_poly
 import requests
 
 endpoint = "http://localhost:8000/api/products/2/"
